@@ -39,3 +39,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Enable IORap I/O Prefetching
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
+
+# Fingerprint
+BUILD_FINGERPRINT ?= google/redfin/redfin:12/SP1A.211105.003/7757856:user/release-keys
