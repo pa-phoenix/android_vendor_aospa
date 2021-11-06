@@ -37,7 +37,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true
 
 # Enable IORap I/O Prefetching
-PRODUCT_SYSTEM_EXT_PROPERTIES += \
+PRODUCT_SYSTEM_PROPERTIES += \
     persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
 
 # Fingerprint
